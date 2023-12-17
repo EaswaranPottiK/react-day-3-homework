@@ -3,15 +3,15 @@ import './App.css';
 import './header.js'
 import Header from './header.js';
 import Body from './body.js';
+import Footer from './footer.js';
 
 function App() {
   return (
-    <div >
+    <div className="App">
       <Header />
-    </div>,
-    <div >
-        <Body />      
-      </div>
+      <Body />
+      <Footer />
+    </div>
   );
 }
 
