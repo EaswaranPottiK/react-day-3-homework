@@ -6,8 +6,11 @@ import Body from './body.js';
 
 function App() {
   return (
-    <Header/>,
-    <Body/>
+    <div className="App">
+      <Header />
+      <Body />
+      
+    </div>
   );
 }
 
