@@ -6,11 +6,12 @@ import Body from './body.js';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Header />
-      <Body />
-      
-    </div>
+    </div>,
+    <div >
+        <Body />      
+      </div>
   );
 }
 
