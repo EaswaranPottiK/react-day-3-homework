@@ -6,7 +6,8 @@ import Body from './body.js';
 
 function App() {
   return (
-    <Header/>,
+    <Header/>
+    ,
     <Body/>
   );
 }
