@@ -2,7 +2,7 @@
 function Body(){
     return (
         <>
-  <img src="./1.png" />
+  <img src="./1.png" alt=""/>
   <div
     style={{
       textAlign: "center",
